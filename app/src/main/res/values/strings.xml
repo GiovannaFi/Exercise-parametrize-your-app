@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Exercise2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bored">I\'m bored</string>
+    <string name="angry">I\'m angry</string>
+    <string name="sad">I\'m sad</string>
+    <string name="yourMood">What\'s your mood today?</string>
+    <string name="guessThePainter">Do you know who painted this artwork?</string>
+    <string name="showAnswer">show answer</string>
+    <string name="settings">Settings</string>
+    <string name="favorites">favorites</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="music">Music</string>
+    <string name="change_game">change game</string>
+    <string name="guess_song">Can you guess this song \nfrom the first five seconds?</string>
+</resources>
