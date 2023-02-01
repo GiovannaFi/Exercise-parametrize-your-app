@@ -4,27 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DFD9FA"
+    android:background="@color/lilac_background"
     tools:context=".sadFragment">
 
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#711380"
-        app:fontFamily="@font/tracyqueen"
-        android:text="I hope this makes you smile today 😊"
+        android:layout_marginBottom="@dimen/sad_title_marginBottom"
+        android:textColor="@color/purple_titles"
+        android:text="@string/sad_title"
         app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/titles"
+        />
 
-    <androidx.appcompat.widget.AppCompatImageView
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="0dp"
-        android:layout_marginHorizontal="16dp"
+        android:layout_marginHorizontal="@dimen/cat_marginHorizontal"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
@@ -36,11 +34,9 @@
 
     <TextView
         android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        android:layout_marginBottom="8dp"
+        style="@style/back_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/back" />
 </androidx.constraintlayout.widget.ConstraintLayout>

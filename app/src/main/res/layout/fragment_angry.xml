@@ -4,32 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAB9E2"
+    android:background="@color/pink_background"
     tools:context=".AngryFragment">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:fontFamily="@font/tracyqueen"
-        android:textColor="#C41B7B"
-        android:layout_marginBottom="16dp"
-        android:text="perfect time for a cigarette!"
-        android:textSize="25sp"
+        android:id="@+id/angry_title"
+        android:textColor="@color/pink_button"
+        android:text="@string/angry_title"
         app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        style="@style/titles"
          />
 
     <TextView
         android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        android:layout_marginBottom="8dp"
+        style="@style/back_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/back" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -41,8 +35,6 @@
         android:src="@drawable/alice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

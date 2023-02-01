@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#C7F2E2"
+    android:background="@color/green_background"
     tools:context=".BoredFragment">
 
 
     <TextView
         android:id="@+id/titlePainter"
-        app:fontFamily="@font/tracyqueen"
-        android:layout_marginTop="80dp"
+        style="@style/titles"
+        android:layout_marginTop="@dimen/margins_top_linear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="#245C52"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/green_titles"
         android:text="@string/guessThePainter" />
 
     <ImageView
@@ -32,19 +32,16 @@
 
     <Button
         android:id="@+id/showAnswer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/show_answer"
         android:layout_marginBottom="80dp"
-        app:backgroundTint="#8AB78C"
         android:text="@string/showAnswer" />
 
     <TextView
         android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        android:layout_weight="0"
-        android:layout_marginBottom="8dp"
-        />
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/back_text" />
 
 </LinearLayout>

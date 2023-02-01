@@ -17,10 +17,13 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="music">Music</string>
     <string name="change_game">change game</string>
     <string name="guess_song">Can you guess this song \nfrom the first five seconds?</string>
+    <string name="back">BACK</string>
+    <string name="angry_title">perfect time for a cigarette!</string>
+    <string name="play_song">Click on the vinyl to play the song</string>
+    <string name="sad_title">I hope this makes you smile today 😊</string>
 </resources>
