@@ -6,24 +6,24 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">0</item>
-        <item name="android:textSize">16sp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textSize">@dimen/text_basic_size</item>
+        <item name="android:layout_marginBottom">@dimen/generic_margins</item>
         <item name="android:textColor">@color/green_titles</item>
     </style>
 
     <style name="show_answer">
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/text_basic_size</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:backgroundTint">@color/green_button</item>
-        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginTop">@dimen/generic_margins</item>
     </style>
 
     <style name="titles">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">8dp</item>
-        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginBottom">@dimen/generic_margins</item>
+        <item name="android:textSize">@dimen/title_size</item>
         <item name="android:fontFamily">@font/tracyqueen</item>
 
     </style>
@@ -31,6 +31,6 @@
     <style name="moods_buttons">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">@dimen/button_plus</item>
     </style>
 </resources>
